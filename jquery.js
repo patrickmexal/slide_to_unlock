@@ -8,7 +8,7 @@ $(function() {
 			}
 		},
 		stop: function(event, ui) {
-			if (ui.position.left < 551) {
+			if (ui.position.left < 651) {
 				$(this).animate({
 					left: 0
 				})
